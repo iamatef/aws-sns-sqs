@@ -41,3 +41,4 @@ sns.publish(params, function(err, data) {
   else     console.log(data);           // successful response
 });
 ````
+8. Code in app.js creates the queue and reads the message from the queue. it has a create messages function but is commented out so it will just read and process the message you created in step 5 after automatically sent to the queue by SNS.
